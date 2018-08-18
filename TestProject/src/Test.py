@@ -9,3 +9,5 @@ x = np.array([[20., 10.], [10., 20.]])
 y = np.linalg.inv(x)
 
 print(x@y)
+
+print(np.linalg.solve(x, np.ones((2,2))))
